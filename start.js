@@ -1,5 +1,4 @@
-<script>
-	var Users={}
+var Users={}
 	var fs=require('fs');
 	var HTMLfile=fs.readFileSync('item.html').toString();
 	var varifyData=function(data)
@@ -37,6 +36,7 @@
 	
 	app.get('/',function(req,res)
 	{
+		//res.redirect('http://google.com').end()
 		res.end(getHTML())
 	})
 	app.get('/Welcome',function(req,res)
@@ -86,4 +86,3 @@ var server = app.listen(8000, function () {
 		return html
 	}
 /////////////////////////////
-</script>
