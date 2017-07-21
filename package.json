@@ -1,4 +1,27 @@
 {
-	"name":"web-repo",
-	"main":"main.html"
+  "name": "web-repo",
+  "main": "main.html",
+  "description": "This is Nikhilesh's Personal web Portfolio",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhileshyadav/mic-web-repo.git"
+  },
+  "keywords": [
+    "nikhilesh",
+    "michael",
+    "yadav"
+  ],
+  "author": "Nikhileshyadav000@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhileshyadav/mic-web-repo/issues"
+  },
+  "homepage": "https://github.com/nikhileshyadav/mic-web-repo#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
